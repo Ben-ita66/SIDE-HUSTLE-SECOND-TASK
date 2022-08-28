@@ -1,829 +1,773 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500&display=swap");
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    background: #E5E5E5;
+body {
+  background: #e5e5e5;
 }
-.main{
-    background-color: #FFFFFF;
+.main {
+  background-color: #ffffff;
 }
-main p.title{
-    position: absolute;
-width: 306px;
-height: 63px;
-left: 243px;
-top: 14px;
+main p.title {
+  position: absolute;
+  width: 306px;
+  height: 63px;
+  left: 243px;
+  top: 14px;
 
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 400;
-font-size: 50px;
-line-height: 63px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 63px;
 
-
-
-color: #000000;
-
+  color: #000000;
 }
-.line{
-    position: absolute;
-width: 306px;
-height: 5px;
-left: 243px;
-top: 70px;
+.line {
+  position: absolute;
+  width: 306px;
+  height: 5px;
+  left: 243px;
+  top: 70px;
 
-background: #F1D5BB;
+  background: #f1d5bb;
 }
-.line2{
-    position: absolute;
-width: 135px;
-height: 5px;
-left: 243px;
-top: 70px;
+.line2 {
+  position: absolute;
+  width: 135px;
+  height: 5px;
+  left: 243px;
+  top: 70px;
 
-background: #F1D5BB;
+  background: #f1d5bb;
 }
-.sidebar{
-    position: absolute;
-width: 132px;
-height: 860px;
-left: 47px;
-top: 14px;
+.sidebar {
+  position: absolute;
+  width: 132px;
+  height: 860px;
+  left: 47px;
+  top: 14px;
 
-background: #0C0B0B;
-border-radius: 24px;
-box-shadow: 7px 7px 7px 5px rgba(22, 20, 20, 0.204);
-
+  background: #0c0b0b;
+  border-radius: 24px;
+  box-shadow: 7px 7px 7px 5px rgba(22, 20, 20, 0.204);
 }
 
-.logo{
-    position: absolute;
-width: 51px;
-height: 102px;
-left: 45px;
-top: 58.65px;
-
-
+.logo {
+  position: absolute;
+  width: 51px;
+  height: 102px;
+  left: 45px;
+  top: 58.65px;
 }
 
-.home{
-    position: absolute;
-left: 45px;
-right: 90.35%;
-top: 20.7%;
-bottom: 75.3%;
-background: #FFFFFF;
+.home {
+  position: absolute;
+  left: 45px;
+  right: 90.35%;
+  top: 20.7%;
+  bottom: 75.3%;
+  background: #ffffff;
 }
-.home-bg:hover{
-    background-color: #F1D5BB;
-    position: absolute;
-    width: 132px;
-height: 122px;
-top: 15.3%;
-    
-}
-
-.food{
-    position: absolute;
-left: 45px;
-right: 90.35%;
-top: 37.3%;
-bottom: 61.7%;
-background: #DADADA;
-}
-.food-bg:hover{
-    background-color: #F1D5BB;
-    position: absolute;
-width: 132px;
-height: 122px;
-top: 34.3%;
-
+.home-bg:hover {
+  background-color: #f1d5bb;
+  position: absolute;
+  width: 132px;
+  height: 122px;
+  top: 15.3%;
 }
 
-.cart{
-    position: absolute;
-left: 45px;
-right: 90.72%;
-top: 55.4%;
-bottom: 48.6%;
+.food {
+  position: absolute;
+  left: 45px;
+  right: 90.35%;
+  top: 37.3%;
+  bottom: 61.7%;
+  background: #dadada;
+}
+.food-bg:hover {
+  background-color: #f1d5bb;
+  position: absolute;
+  width: 132px;
+  height: 122px;
+  top: 34.3%;
+}
 
-background: #DADADA;
+.cart {
+  position: absolute;
+  left: 45px;
+  right: 90.72%;
+  top: 55.4%;
+  bottom: 48.6%;
 
+  background: #dadada;
 }
-.cart-bg:hover{
-    background-color: #F1D5BB;
-    position: absolute;
-    width: 132px;
-height: 122px;
-top: 50.3%;
-    
+.cart-bg:hover {
+  background-color: #f1d5bb;
+  position: absolute;
+  width: 132px;
+  height: 122px;
+  top: 50.3%;
 }
-.locate{
-    position: absolute;
-left: 45px;
-right: 91.34%;
-top: 72.8%;
-bottom: 33.2%;
+.locate {
+  position: absolute;
+  left: 45px;
+  right: 91.34%;
+  top: 72.8%;
+  bottom: 33.2%;
 
-background: #DADADA;
+  background: #dadada;
 }
-/* .locate-bg:hover{
-    background-color: #F1D5BB;
-    position: absolute;
-    width: 132px;
-height: 122px;
-top: 72.3%;
+.direct {
+  position: absolute;
+  left: 49px;
+  right: 90.35%;
+  top: 90%;
+  bottom: 17%;
 
-    
-} */
-.direct{
-    position: absolute;
-left: 49px;
-right: 90.35%;
-top: 90%;
-bottom: 17%;
+  background: #ffffff;
+}
+.food1 {
+  position: absolute;
+  width: 224px;
+  height: 275px;
+  left: 243px;
+  top: 110px;
+  border-radius: 2px;
+}
+.smash {
+  position: absolute;
+  width: 130px;
+  height: 25px;
+  left: 50px;
+  top: 300px;
 
-background: #FFFFFF;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000000;
 }
-/* .direct-bg:hover{
-    background-color: #F1D5BB;
-    position: absolute;
-    width: 132px;
-height: 122px;
-top: 90%;
-bottom: 0px;
-    
-} */
-.food1{
-    position: absolute;
-width: 224px;
-height: 275px;
-left: 243px;
-top: 110px;
-border-radius: 2px;
-}
-.smash{
-    position: absolute;
-width: 130px;
-height: 25px;
-left: 50px;
-top: 300px;
+.smash2 {
+  position: absolute;
+  width: 130px;
+  height: 25px;
+  left: 60px;
+  top: 300px;
 
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 25px;
-color: #000000;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000000;
+}
+.smash3 {
+  position: absolute;
+  width: 190px;
+  height: 25px;
+  left: 30px;
+  top: 300px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000000;
+}
+.smash4 {
+  position: absolute;
+  width: 190px;
+  height: 25px;
+  left: 40px;
+  top: 300px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000000;
+}
+.smash7 {
+  position: absolute;
+  width: 130px;
+  height: 25px;
+  left: 80px;
+  top: 300px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000000;
+}
+.food2 {
+  position: absolute;
+  width: 224px;
+  height: 275px;
+  left: 533px;
+  top: 110px;
+  border-radius: 2px;
+}
+.food3 {
+  position: absolute;
+  width: 224px;
+  height: 275px;
+  left: 823px;
+  top: 110px;
+  border-radius: 2px;
+}
+.food4 {
+  position: absolute;
+  width: 224px;
+  height: 275px;
+  left: 1113px;
+  top: 110px;
+  border-radius: 2px;
+}
+.food5 {
+  position: absolute;
+  width: 224px;
+  height: 275px;
+  left: 244px;
+  top: 470px;
+  border-radius: 2px;
+}
+.food6 {
+  position: absolute;
+  width: 224px;
+  height: 275px;
+  left: 534px;
+  top: 470px;
+  border-radius: 2px;
+}
+.food7 {
+  position: absolute;
+  width: 224px;
+  height: 275px;
+  left: 824px;
+  top: 470px;
+  border-radius: 2px;
+}
+.food8 {
+  position: absolute;
+  width: 224px;
+  height: 275px;
+  left: 1114px;
+  top: 470px;
+  border-radius: 2px;
+}
+.load {
+  position: absolute;
+  width: 194px;
+  height: 54px;
+  left: 676px;
+  top: 825px;
+  background: #000000;
+  border-radius: 2px;
+  position: absolute;
+  width: 158px;
+  height: 40px;
+  left: 700px;
+  top: 835px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 25px;
+  color: #ffffff;
+}
+.copy {
+  position: absolute;
+  width: 250px;
+  height: 19px;
+  left: 244px;
+  top: 920px;
 
-}
-.smash2{
-    position: absolute;
-width: 130px;
-height: 25px;
-left: 60px;
-top: 300px;
-
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 25px;
-color: #000000;
-}
-.smash3{
-    position: absolute;
-width: 190px;
-height: 25px;
-left: 30px;
-top: 300px;
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 25px;
-color: #000000;
-}
-.smash4{
-    position: absolute;
-width: 190px;
-height: 25px;
-left: 40px;
-top: 300px;
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 25px;
-color: #000000;
-}
-.smash7{
-    position: absolute;
-width: 130px;
-height: 25px;
-left: 80px;
-top: 300px;
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 25px;
-color: #000000;
-}
-.food2{
-    position: absolute;
-width: 224px;
-height: 275px;
-left: 533px;
-top: 110px;
-border-radius: 2px;
-}
-.food3{
-    position: absolute;
-width: 224px;
-height: 275px;
-left: 823px;
-top: 110px;
-border-radius: 2px;
-}
-.food4{
-    position: absolute;
-width: 224px;
-height: 275px;
-left: 1113px;
-top: 110px;
-border-radius: 2px;
-}
-.food5{
-    position: absolute;
-width: 224px;
-height: 275px;
-left: 244px;
-top: 470px;
-border-radius: 2px;
-}
-.food6{
-    position: absolute;
-width: 224px;
-height: 275px;
-left: 534px;
-top: 470px;
-border-radius: 2px;
-}
-.food7{
-    position: absolute;
-width: 224px;
-height: 275px;
-left: 824px;
-top: 470px;
-border-radius: 2px;
-}
-.food8{
-    position: absolute;
-width: 224px;
-height: 275px;
-left: 1114px;
-top: 470px;
-border-radius: 2px;
-}
-.load{
-    position: absolute;
-width: 194px;
-height: 54px;
-left: 676px;
-top: 825px;
-background: #000000;
-border-radius: 2px;
-position: absolute;
-width: 158px;
-height: 40px;
-left: 700px;
-top: 835px;
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 300;
-font-size: 16px;
-line-height: 25px;
-color: #FFFFFF;
-}
-.copy{
-    position: absolute;
-width: 250px;
-height: 19px;
-left: 244px;
-top: 920px;
-
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 600;
-font-size: 15px;
-line-height: 19px;
-color: #000000;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 19px;
+  color: #000000;
 }
 /* second page */
-.box1{
-    position: absolute;
-width: 608px;
-height: 608px;
-left: 234px;
-top: 100px;
+.box1 {
+  position: absolute;
+  width: 608px;
+  height: 608px;
+  left: 234px;
+  top: 100px;
 
-background: #F1D5BB;
-border-radius: 3px;
+  background: #f1d5bb;
+  border-radius: 3px;
 }
-.dish1{
-    position: absolute;
-width: 90px;
-height: 90px;
-left: 27px;
-top: 25px;
+.dish1 {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  left: 27px;
+  top: 25px;
 }
-.text1{
-    position: absolute;
-width: 162px;
-height: 31px;
-left: 140px;
-top: 27px;
+.text1 {
+  position: absolute;
+  width: 162px;
+  height: 31px;
+  left: 140px;
+  top: 27px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 31px;
+  color: #000000;
+}
+.price1 {
+  position: absolute;
+  width: 65px;
+  height: 25px;
+  left: 140px;
+  top: 67px;
 
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 600;
-font-size: 25px;
-line-height: 31px;
-
-color: #000000;
-
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000000;
 }
-.price1{
-    position: absolute;
-width: 65px;
-height: 25px;
-left: 140px;
-top: 67px;
+.dash1 {
+  position: absolute;
+  width: 11px;
+  height: 24px;
+  left: 350px;
+  top: 45px;
 
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 25px;
-color: #000000;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  cursor: pointer;
+  color: #000000;
+}
+.num1 {
+  position: absolute;
+  width: 46px;
+  height: 35px;
+  left: 380px;
+  top: 47px;
+  text-align: center;
+  background: #ffffff;
+}
+.num1 p,
+.num2 p,
+.num3 p,
+.num4 p {
+  position: absolute;
+  width: 12px;
+  height: 25px;
+  left: 17px;
+  top: 5px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+}
+.plus1 {
+  position: absolute;
+  width: 12px;
+  height: 25px;
+  left: 445px;
+  top: 52px;
 
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000000;
+  cursor: pointer;
 }
-.dash1{
-    position: absolute;
-width: 11px;
-height: 24px;
-left: 350px;
-top: 45px;
+.cancel {
+  position: absolute;
+  left: 90.18%;
+  top: 9.7%;
+  bottom: 77.3%;
+  cursor: pointer;
+}
+.dish2 {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  left: 27px;
+  top: 170px;
+}
+.text2 {
+  position: absolute;
+  width: 126px;
+  height: 31px;
+  left: 140px;
+  top: 170px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 31px;
+  color: #000000;
+}
+.price2 {
+  position: absolute;
+  width: 65px;
+  height: 25px;
+  left: 140px;
+  top: 210px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000000;
+}
+.dash2 {
+  position: absolute;
+  width: 11px;
+  height: 24px;
+  left: 350px;
+  top: 190px;
 
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 25px;
-cursor: pointer;
-color: #000000;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  cursor: pointer;
+  color: #000000;
 }
-.num1{
-    position: absolute;
-width: 46px;
-height: 35px;
-left: 380px;
-top: 47px;
-text-align: center;
-background: #FFFFFF;
+.num2 {
+  position: absolute;
+  width: 46px;
+  height: 35px;
+  left: 380px;
+  top: 195px;
+  text-align: center;
+  background: #ffffff;
+}
+.plus2 {
+  position: absolute;
+  width: 12px;
+  height: 25px;
+  left: 445px;
+  top: 198px;
+  cursor: pointer;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000000;
+}
+.cancel2 {
+  position: absolute;
+  left: 90.18%;
+  top: 33.7%;
+  bottom: 77.3%;
+  cursor: pointer;
+}
+.dish3 {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  left: 27px;
+  top: 320px;
+}
+.text3 {
+  position: absolute;
+  width: 126px;
+  height: 31px;
+  left: 140px;
+  top: 320px;
 
-}
-.num1 p, .num2 p, .num3 p, .num4 p{
-    position: absolute;
-width: 12px;
-height: 25px;
-left: 17px;
-top: 5px;
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 25px;
-}
-.plus1{
-    position: absolute;
-width: 12px;
-height: 25px;
-left: 445px;
-top: 52px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 31px;
 
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 25px;
-color: #000000;
-cursor: pointer;
+  color: #000000;
 }
-.cancel{
-    position: absolute;
-    left: 90.18%;
-    top: 9.7%;
-    bottom: 77.3%;
-    cursor: pointer;
-}
-.dish2{
-    position: absolute;
-width: 90px;
-height: 90px;
-left: 27px;
-top: 170px;
-}
-.text2{
-    position: absolute;
-width: 126px;
-height: 31px;
-left: 140px;
-top: 170px;
+.price3 {
+  position: absolute;
+  width: 65px;
+  height: 25px;
+  left: 140px;
+  top: 360px;
 
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 600;
-font-size: 25px;
-line-height: 31px;
-
-color: #000000;
-
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000000;
 }
-.price2{
-    position: absolute;
-width: 65px;
-height: 25px;
-left: 140px;
-top: 210px;
+.dash3 {
+  position: absolute;
+  width: 11px;
+  height: 24px;
+  left: 350px;
+  top: 340px;
 
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 25px;
-color: #000000;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  cursor: pointer;
+  color: #000000;
 }
-.dash2{
-    position: absolute;
-width: 11px;
-height: 24px;
-left: 350px;
-top: 190px;
+.num3 {
+  position: absolute;
+  width: 46px;
+  height: 35px;
+  left: 380px;
+  top: 345px;
+  text-align: center;
+  background: #ffffff;
+}
+.plus3 {
+  position: absolute;
+  width: 12px;
+  height: 25px;
+  left: 445px;
+  top: 348px;
+  cursor: pointer;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000000;
+}
+.cancel3 {
+  position: absolute;
+  left: 90.18%;
+  top: 58.7%;
+  bottom: 77.3%;
+  cursor: pointer;
+}
+.dish4 {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  left: 27px;
+  top: 460px;
+}
+.text4 {
+  position: absolute;
+  width: 200px;
+  height: 31px;
+  left: 140px;
+  top: 460px;
 
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 25px;
-cursor: pointer;
-color: #000000;
-}
-.num2{
-    position: absolute;
-width: 46px;
-height: 35px;
-left: 380px;
-top: 195px;
-text-align: center;
-background: #FFFFFF;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 31px;
 
+  color: #000000;
 }
-.plus2{
-    position: absolute;
-width: 12px;
-height: 25px;
-left: 445px;
-top: 198px;
-cursor: pointer;
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 25px;
-color: #000000;
-}
-.cancel2{
-    position: absolute;
-    left: 90.18%;
-    top: 33.7%;
-    bottom: 77.3%;
-    cursor: pointer;
-}
-.dish3{
-    position: absolute;
-width: 90px;
-height: 90px;
-left: 27px;
-top: 320px;
-}
-.text3{
-    position: absolute;
-width: 126px;
-height: 31px;
-left: 140px;
-top: 320px;
+.price4 {
+  position: absolute;
+  width: 65px;
+  height: 25px;
+  left: 140px;
+  top: 500px;
 
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 600;
-font-size: 25px;
-line-height: 31px;
-
-color: #000000;
-
-}
-.price3{
-    position: absolute;
-width: 65px;
-height: 25px;
-left: 140px;
-top: 360px;
-
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 25px;
-color: #000000;
-}
-.dash3{
-    position: absolute;
-width: 11px;
-height: 24px;
-left: 350px;
-top: 340px;
-
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 25px;
-cursor: pointer;
-color: #000000;
-}
-.num3{
-    position: absolute;
-width: 46px;
-height: 35px;
-left: 380px;
-top: 345px;
-text-align: center;
-background: #FFFFFF;
-
-}
-.plus3{
-    position: absolute;
-width: 12px;
-height: 25px;
-left: 445px;
-top: 348px;
-cursor: pointer;
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 25px;
-color: #000000;
-}
-.cancel3{
-    position: absolute;
-    left: 90.18%;
-    top: 58.7%;
-    bottom: 77.3%;
-    cursor: pointer;
-}
-.dish4{
-    position: absolute;
-width: 90px;
-height: 90px;
-left: 27px;
-top: 460px;
-}
-.text4{
-    position: absolute;
-width: 200px;
-height: 31px;
-left: 140px;
-top: 460px;
-
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 600;
-font-size: 22px;
-line-height: 31px;
-
-color: #000000;
-
-}
-.price4{
-    position: absolute;
-width: 65px;
-height: 25px;
-left: 140px;
-top: 500px;
-
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 25px;
-color: #000000;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000000;
 }
 
-.dash4{
-    position: absolute;
-width: 11px;
-height: 24px;
-left: 350px;
-top: 480px;
+.dash4 {
+  position: absolute;
+  width: 11px;
+  height: 24px;
+  left: 350px;
+  top: 480px;
 
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 25px;
-cursor: pointer;
-color: #000000;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  cursor: pointer;
+  color: #000000;
 }
-.num4{
-    position: absolute;
-width: 46px;
-height: 35px;
-left: 380px;
-top: 485px;
-text-align: center;
-background: #FFFFFF;
-
+.num4 {
+  position: absolute;
+  width: 46px;
+  height: 35px;
+  left: 380px;
+  top: 485px;
+  text-align: center;
+  background: #ffffff;
 }
-.plus4{
-    position: absolute;
-width: 12px;
-height: 25px;
-left: 445px;
-top: 488px;
-cursor: pointer;
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 25px;
-color: #000000;
+.plus4 {
+  position: absolute;
+  width: 12px;
+  height: 25px;
+  left: 445px;
+  top: 488px;
+  cursor: pointer;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000000;
 }
-.cancel4{
-    position: absolute;
-    left: 90.18%;
-    top: 80.7%;
-    bottom: 77.3%;
-    cursor: pointer;
+.cancel4 {
+  position: absolute;
+  left: 90.18%;
+  top: 80.7%;
+  bottom: 77.3%;
+  cursor: pointer;
 }
-.box2{
-    position: absolute;
-width: 443px;
-height: 286px;
-left: 883px;
-top: 100px;
+.box2 {
+  position: absolute;
+  width: 443px;
+  height: 286px;
+  left: 883px;
+  top: 100px;
 
-background: #F1D5BB;
-border-radius: 3px;
+  background: #f1d5bb;
+  border-radius: 3px;
 }
-.sub{
-    position: absolute;
-width: 249px;
-height: 50px;
-left: 32px;
-top: 10px;
+.sub {
+  position: absolute;
+  width: 249px;
+  height: 50px;
+  left: 32px;
+  top: 10px;
 
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 50px;
-
-color: #000000;
-
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  color: #000000;
 }
-.sub2{
-    position: absolute;
-width: 118px;
-height: 38px;
-left: 32px;
-top: 97px;
-
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 38px;
-
-color: rgba(0, 0, 0, 0.8);
+.sub2 {
+  position: absolute;
+  width: 118px;
+  height: 38px;
+  left: 32px;
+  top: 97px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 38px;
+  color: rgba(0, 0, 0, 0.8);
 }
-.amt{
-    position: absolute;
-    width: 97px;
-    height: 38px;
-    left: 190px;
-    top: 97px;
-    
-    font-family: 'Mulish';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 38px;
-    color: rgba(0, 0, 0, 0.8);
-    
+.amt {
+  position: absolute;
+  width: 97px;
+  height: 38px;
+  left: 190px;
+  top: 97px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 38px;
+  color: rgba(0, 0, 0, 0.8);
 }
-.confirm{
-    position: absolute;
-width: 355px;
-height: 68px;
-left: 32px;
-top: 173px;
+.confirm {
+  position: absolute;
+  width: 355px;
+  height: 68px;
+  left: 32px;
+  top: 173px;
 
-background: #000000;
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 38px;
-
-cursor: pointer;
-
-color: #FFFFFF;
-
+  background: #000000;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 38px;
+  cursor: pointer;
+  color: #ffffff;
 }
-.box3{
-    box-sizing: border-box;
-
-position: absolute;
-width: 443px;
-height: 326px;
-left: 883px;
-top: 386px;
-
-background: #FFFFFF;
-border: 1px solid #F1D5BB;
-border-radius: 3px;
-
+.box3 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 443px;
+  height: 326px;
+  left: 883px;
+  top: 386px;
+  background: #ffffff;
+  border: 1px solid #f1d5bb;
+  border-radius: 3px;
 }
-
-.box3 p{
-    position: absolute;
-width: 227px;
-height: 50px;
-left: 30px;
-top: 20px;
-
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 50px;
-
-color: #000000;
-
+.box3 p {
+  position: absolute;
+  width: 227px;
+  height: 50px;
+  left: 30px;
+  top: 20px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  color: #000000;
 }
-.promo{
-    position: absolute;
-width: 365px;
-height: 78px;
-left: 30px;
-top: 89px;
-outline: none;
-background: #FFFFFF;
-border: 1px solid #F1D5BB;
+.promo {
+  position: absolute;
+  width: 365px;
+  height: 78px;
+  left: 30px;
+  top: 89px;
+  outline: none;
+  background: #ffffff;
+  border: 1px solid #f1d5bb;
 }
-input::placeholder{
-width: 236px;
-height: 38px;
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 200;
-font-size: 23px;
-line-height: 38px;
-color: rgba(0, 0, 0, 0.6);
+input::placeholder {
+  width: 236px;
+  height: 38px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 23px;
+  line-height: 38px;
+  color: rgba(0, 0, 0, 0.6);
 }
 input[type="number"] {
-    color: rgba(0, 0, 0, 0.6);
-    padding-left: 15px;
-    font-size: large;
+  color: rgba(0, 0, 0, 0.6);
+  padding-left: 15px;
+  font-size: large;
 }
-.button2{
-    position: absolute;
-width: 166px;
-height: 70px;
-left: 30px;
-top: 200px;
-background: #000000;
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 300;
-font-size: 30px;
-line-height: 38px;
-color: #FFFFFF;
-
+.button2 {
+  position: absolute;
+  width: 166px;
+  height: 70px;
+  left: 30px;
+  top: 200px;
+  background: #000000;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 38px;
+  color: #ffffff;
 }

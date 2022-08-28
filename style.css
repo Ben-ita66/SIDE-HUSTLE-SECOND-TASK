@@ -56,10 +56,10 @@ button {
   border: 1px solid #ffffff;
   color: #000000;
 }
-button:hover{
+button:hover {
   cursor: pointer;
   background-color: #000000;
   color: #ffffff;
   border: 1px solid #000000;
-  transition: 0   .4s all;
+  transition: 0 0.4s all;
 }
